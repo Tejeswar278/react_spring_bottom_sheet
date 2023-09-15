@@ -16,7 +16,7 @@ function Bottomsheet (){
         sethalfbtn(0)
     }
     const showfullnavref=()=> {
-        if(fullbtn == 0){
+        if(fullbtn === 0){
             navref.current.classList.remove("responsive","responsivehalf")
             navref.current.classList.toggle("responsivefull")
             navref.current.classList.toggle("responsive")
@@ -25,7 +25,7 @@ function Bottomsheet (){
         }
     }
     const showhalfnavref=()=> {
-        if(halfbtn == 0){
+        if(halfbtn === 0){
             navref.current.classList.remove("responsive","responsivefull")
             navref.current.classList.toggle("responsivehalf")
             navref.current.classList.toggle("responsive")
